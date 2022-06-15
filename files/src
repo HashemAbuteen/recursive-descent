@@ -1,0 +1,30 @@
+program testing;
+const
+   max=33;
+var
+  m,n:integer;
+
+begin
+  writeln(n,m);
+  while m<>10 do
+    begin
+      n := (n div 10) +1;
+      write(n, m);
+      {this is a comment}
+    end;
+  y:=3.5;
+  x:=5.0;
+repeat
+   sum := sum + number;
+   number := number - 2;
+until number = 0;
+
+  if n>m then
+    if x>=5 then
+      begin
+        x:= x*y + 20.6;
+        read(m,x);
+      end
+    else
+      writeln(m,y);
+ end.
